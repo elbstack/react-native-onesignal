@@ -132,7 +132,7 @@ public class RNOneSignal extends ReactContextBaseJavaModule implements Lifecycle
                 "'notificationsEnabled': " + String.valueOf(notificationsEnabled) + "," +
                 "'subscriptionEnabled': " + String.valueOf(subscriptionEnabled) + "," +
                 "'userSubscriptionEnabled': " + String.valueOf(userSubscriptionEnabled) + "," +
-                "'pushToken': " + subscriptionState.getPushToken() + "," +
+                "'pushToken': \"" + subscriptionState.getPushToken() + "\"," +
                 "'userId': " + subscriptionState.getUserId() +
             "}");
 
